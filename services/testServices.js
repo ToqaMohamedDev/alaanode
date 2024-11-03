@@ -13,6 +13,6 @@ exports.getData=asyncHandler(async (req, res, next) => {
 
 /*
 git add .
-git commit -m "sssss5"
+git commit -m "sssss6"
 git push -u origin main
 */
