@@ -42,10 +42,6 @@ if (process.env.NODE_ENV === 'development') {
 // Mount Routes
 mountRoutes(app);
 
-app.get('/', () => {
-  console.log('asdasdas');
-  //res.send("asdasasdasd");
-})
 
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
