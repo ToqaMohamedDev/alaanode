@@ -15,7 +15,7 @@ const dbConnection = require('./config/database');
 const mountRoutes = require('./routes');
 const token = '7733472718:AAEtJ8ob2MY2ICT7PXSoCgvPheA2UvgJB0Y';
 
-const bot = new TelegramBot(token, { webHook: true });
+const bot = new TelegramBot(token, { polling: true });
 
 // Connect with db
 dbConnection();
